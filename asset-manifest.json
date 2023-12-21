@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Amsterdam-bmv/static/css/main.0738d59e.css",
+    "main.js": "/Amsterdam-bmv/static/js/main.c21a3a4a.js",
+    "static/js/787.51f9f5f6.chunk.js": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js",
+    "static/media/pexels-jan-kopřiva-3315512.jpg": "/Amsterdam-bmv/static/media/pexels-jan-kopřiva-3315512.708fe4a29b24acd6dc99.jpg",
+    "static/media/Valley-vallei-op-6e-verdieping-1800x1201.jpg": "/Amsterdam-bmv/static/media/Valley-vallei-op-6e-verdieping-1800x1201.37185e4d196eca12eb41.jpg",
+    "static/media/961_1440x960.jpg": "/Amsterdam-bmv/static/media/961_1440x960.65b99cee6568f3226250.jpg",
+    "static/media/Zuidas.jpg": "/Amsterdam-bmv/static/media/Zuidas.d2acf220e8ae7b907ce3.jpg",
+    "index.html": "/Amsterdam-bmv/index.html",
+    "main.0738d59e.css.map": "/Amsterdam-bmv/static/css/main.0738d59e.css.map",
+    "main.c21a3a4a.js.map": "/Amsterdam-bmv/static/js/main.c21a3a4a.js.map",
+    "787.51f9f5f6.chunk.js.map": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0738d59e.css",
+    "static/js/main.c21a3a4a.js"
+  ]
+}
