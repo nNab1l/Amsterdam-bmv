@@ -13,11 +13,11 @@ html{
 body{
   font-size: 2rem;
   overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header{
   width: 100%;
-  height: 100vh;
 
 }
 
@@ -26,7 +26,7 @@ body{
   height: 10rem;
   position: sticky;
   top: 0;
-  background: white;
+  z-index: 1;
 }
 
 .header__ul{
@@ -37,14 +37,12 @@ body{
   align-items: center;
   gap: 5rem;
   font-size: 1.5rem;
-  font-weight: 600;
 }
 
 .header__li{
 
   width: 10rem;
   height: 4rem;
-  backdrop-filter: blur(20px);
   align-items: center;
   display: flex;
   justify-content: center;
@@ -53,18 +51,22 @@ body{
 }
 
 .header__li:hover{
-  backdrop-filter: blur(5px);
   cursor: pointer; 
   background: rgba(0, 0, 0, 0.058);
+  backdrop-filter: blur(20px);
+
 }
 
 .header__fig{
   width: 100%;
-  height: 100%;
+  height: 80vh;
   background: white;
-  margin: 5rem;
+  position: relative;
   border-radius: 2rem;
   box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .header__article{
@@ -72,4 +74,127 @@ body{
   height: 100%;
   display: flex;
   justify-content: center;
+  margin: auto;
+  padding: 0 5rem 0 5rem;
+}
+
+.header__slide{
+  position: absolute;
+  top: 90%;
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.header__slider{
+  width: 1rem;
+  height: 1rem;
+  background: white;
+  border-radius: 50%;
+  transition: 0.5s all;
+}
+
+.header__slider:hover{
+  cursor: pointer;
+}
+
+.header__slider--selected{
+  background: rgb(159, 43, 43);
+  width: 3rem;
+  border-radius: 2rem;
+}
+
+.header__img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.info__section{
+  width: 100%;
+  height: 100%;
+  margin-top: 10rem;
+}
+
+.info__article{
+  height: 100%;
+  width: 100%;
+  padding-left: 10rem;
+}
+
+mark{
+  background: none;
+  color: rgb(145, 53, 53);
+}
+
+h2{
+  font-size: 4rem;
+}
+
+
+.info__sub{
+  color: rgb(159, 43, 43);
+  font-size: 1.7rem;
+  padding-top: 1rem;
+}
+
+.info__content{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  gap: 5rem;
+  padding-top: 5rem;
+}
+
+.info__figure{
+  width: 100%;
+  height: 70rem;
+  padding-right: 5rem;
+  overflow: hidden;
+}
+
+.info__img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.info__wrapper{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 8rem;
+  border-bottom: 2px solid #eee;
+  transition: 0.3s all;
+}
+
+.info__wrapper:hover{
+  border-bottom: 2px solid rgb(159, 43, 43);
+  cursor: pointer;
+}
+
+.info__dot{
+  color: rgb(159, 43, 43);
+}
+
+.info__panel{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+
+
+.info__heading{
+  font-size: 2.5rem;
+}
+
+
+::selection {
+  color: white;
+  background: rgb(159, 43, 43);
 }
