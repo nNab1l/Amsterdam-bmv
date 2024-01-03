@@ -63,7 +63,6 @@ body{
   background: white;
   position: relative;
   border-radius: 2rem;
-  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
   display: flex;
   justify-content: center;
   align-items: center;
