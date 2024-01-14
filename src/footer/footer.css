@@ -1,0 +1,21 @@
+.footer{
+    width: 100%;
+    height: 100%;
+    margin-top: 30rem;
+    margin-right: 5rem;
+    padding: 5rem;
+}
+
+.footer__main{
+    background: #f2f2f29b;
+    height: 50rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2rem;
+    padding: 10rem;
+}
+
+li{
+    list-style: none;
+}
