@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import img1 from './961_1440x960.jpg';
 import img2 from './Valley-vallei-op-6e-verdieping-1800x1201.jpg';
-import img3 from './grass.jpg';
+import img3 from './img/grass.jpg';
+import logo from './img/logo-gemeente-amsterdam.png';
 
 const Header = () => {
   const [rotationAngle, setRotationAngle] = useState(0);
@@ -12,7 +13,7 @@ const Header = () => {
 
       const scaledRotation = scrollPosition * 0.3; 
 
-      const limitedRotation = Math.min(scaledRotation, 25);
+      const limitedRotation = Math.min(scaledRotation, 15);
 
       setRotationAngle(limitedRotation);
     };
@@ -34,11 +35,13 @@ const Header = () => {
       <article className='header__blur'></article>
       <article className='header__blur header__blur--two'></article>
       <nav className='header__nav'>
+      <img src={logo} alt="" className='header__logo'/>
         <ul className='header__ul'>
-          <li className='header__li'>Home</li>
+          <li className='header__li'>Organisatie</li>
           <li className='header__li'>Projecten</li>
           <li className='header__li'>Werken Bij</li>
         </ul>
+        <p>contact</p>
       </nav>
       <figure className='header__figure' style={headerFigureStyle}>
         <img src={img3} alt="" className='header__img'/>

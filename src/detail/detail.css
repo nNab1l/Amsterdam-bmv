@@ -5,26 +5,38 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 30rem;
+    padding-top: 20rem;
 
 }
 
 
 .detail__wrapper {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
   }
   
   .detail__infinite-text {
-      font-size: 12rem;
-      color: rgb(159, 43, 43);
+      font-size: 9rem;
+      color: black;
       z-index: -1;
       transition: 0.5s all;
       text-align: center;
+      border-bottom: 2px #eee solid;
+      text-align: left;
+
   }
 
+
+  .detail__tag{
+    font-weight: 700;
+    color: rgb(159, 43, 43);
+  }
 
 
 .detail__img{
@@ -57,4 +69,75 @@
 
 .detail__p{
     width: 70ch;
+    color: #585858;
 }
+
+.detail__nav{
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detail__ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 1.5rem;
+    border-bottom: 2px #eee solid;
+  }
+  
+  .detail__li{
+  
+    width: 10rem;
+    height: 4rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    transition: 0.3s all;
+  }
+
+  .detail__li:hover{
+    cursor: pointer; 
+    background: rgba(0, 0, 0, 0.058);
+    backdrop-filter: blur(20px);
+  
+  }
+
+  .detail__link{
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+  .detail__buttonWrapper{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s all;
+  }
+
+  .detail__buttonWrapper:hover .detail__button,
+  .detail__buttonWrapper:hover .detail__arrow,
+  .detail__buttonWrapper:hover .detail__back {
+    color: #8f8f8f;
+    border-color: #8f8f8f;
+    cursor: pointer;
+  }
+  .detail__button{
+    background: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px solid black;
+  }
+

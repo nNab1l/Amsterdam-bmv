@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Info from './info/Info';
 import Projects from './projects/projects';
 import Detail from './detail/Detail';
+import Work from './work/Work';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 const App = () => {
@@ -10,12 +11,13 @@ const App = () => {
     <>
       <Routes>
         <Route
-          path="/"
+          path="/Amsterdam-bmv"
           element={
             <>
               <Header />
               <Info />
               <Projects />
+              <Work />
             </>
           }
         />

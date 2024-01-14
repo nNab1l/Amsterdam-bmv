@@ -1,0 +1,97 @@
+.work{
+    width: 100%;
+    height: 100%;
+    margin-top: 35rem;
+    position: relative;
+  }
+  
+  .work__article{
+    height: 100%;
+    width: 100%;
+    padding-left: 10rem;
+    margin-top: 10rem;
+  }
+  
+
+  
+  mark{
+    background: none;
+    color: rgb(145, 53, 53);
+  }
+  
+  h2{
+    font-size: 4rem;
+  }
+  
+  
+  .work__sub{
+    color: rgb(159, 43, 43);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    font-weight: 700;
+  }
+  
+
+
+  .work__content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+    padding-top: 5rem;
+  }
+  
+  .work__figure{
+    width: 100%;
+    height: 70rem;
+    padding-left: 10rem;
+    overflow: hidden;
+    transform: scale(0.7);
+    transition: 0.5s all;
+  }
+  
+  .work__content:hover .work__figure {
+    transform: scale(1.0); 
+  }
+  
+  .work__figure--alt{
+    padding-right: 0rem;
+  }
+  
+  .work__img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+  
+
+  .work__textWrapper{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .work__paragraph{
+    padding-right: 5rem;
+    color: #585858;
+  }
+
+.h2 {
+    width: 50rem; 
+    position: absolute;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    rotate: -90deg;
+    right: 82%;
+    top: 50%;
+    font-size: 1.5rem;
+ } 
+ 
+.h2 span { 
+     background:#fff; 
+     padding:0 10px; 
+ }
