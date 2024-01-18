@@ -4,7 +4,7 @@ import img from './img/67-stadstimmertuin-jongeman-en-vrouw-in-gesprek.jpg';
 const Work = () => {
 
     return(
-        <section className="work">
+        <section className="work" id='wor'>
             <p className='h2'>
                 <span>Werken Bij</span>
             </p>

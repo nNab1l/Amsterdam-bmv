@@ -5,6 +5,7 @@ import img3 from './img/grass.jpg';
 import logo from './img/logo-gemeente-amsterdam.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll'
 
 const Header = () => {
   const [rotationAngle, setRotationAngle] = useState(0);
@@ -46,11 +47,17 @@ const Header = () => {
       <nav className='header__nav'>
       <img src={logo} alt="" className='header__logo'/>
         <ul className='header__ul'>
+        <Link activeClass="active" smooth spy to="org">
           <li className='header__li'>Organisatie</li>
+        </Link>
+        <Link activeClass="active" smooth spy to="pro">
           <li className='header__li'>Projecten</li>
+        </Link>
+        <Link activeClass="active" smooth spy to="wor">
           <li className='header__li'>Werken Bij</li>
+        </Link>
           <li className='header__li header__li--altNav' onClick={toggleMobileNav}>
-            <FontAwesomeIcon icon={faBars} />
+            <FontAwesomeIcon icon={faBars} className='header__icon'/>
           </li>
         </ul>
       </nav>

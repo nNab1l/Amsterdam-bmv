@@ -15,56 +15,56 @@ const projectsData = [
     id: 1,
     name: 'Spinoza20first',
     imgSrc: img,
-    content: 'Content for Spinoza20first project goes here.',
+    content: '',
   },
   {
     id: 2,
     name: 'Sportpark Goed Genoeg & Clubgebouw AFC',
     imgSrc: img5,
-    content: 'Content for Sportpark Goed Genoeg project goes here.',
+    content: '',
   },
   {
     id: 3,
     name: 'Nieuwbouw AICS',
     imgSrc: img2,
-    content: 'Content for Nieuwbouw AICS project goes here.',
+    content: '',
   },
   {
     id: 4,
     name: 'Renovatie Amsterdam Museum',
     imgSrc: img4,
-    content: 'Content for Renovatie Amsterdam Museum project goes here.',
+    content: '',
   },
   {
     id: 5,
     name: 'Nieuwbouw wereldburger',
     imgSrc: img3,
-    content: 'Content for Renovatie Amsterdam Museum project goes here.',
+    content: '',
   },
   {
     id: 6,
     name: 'Renovatie Bostheater',
     imgSrc: img6,
-    content: 'Content for Renovatie Amsterdam Museum project goes here.',
+    content: '',
   },
   {
     id: 7,
     name: 'Verbouwing en Nieuwbouw Werven en Overslagpunten',
     imgSrc: img7,
-    content: 'Content for Renovatie Amsterdam Museum project goes here.',
+    content: '',
   },
   {
     id: 8,
     name: 'Nationaal Slavernijmuseum',
     imgSrc: img8,
-    content: 'Content for Renovatie Amsterdam Museum project goes here.',
+    content: '',
   },
 ];
 
 
 const Projects = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='pro'>
       <p className='h2'>
             <span>Projecten</span>
       </p>

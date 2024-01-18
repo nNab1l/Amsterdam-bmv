@@ -3,6 +3,7 @@ import img from './img/pexels-jan-kopřiva-3315512.jpg';
 import img2 from './img/vertical2.jpg';
 
 
+
 const Info = () => {
   const itemNames = ['Groei', 'Sociaal-maatschappelijk', 'Werkplekken', 'Integrale aanpak'];
 
@@ -42,7 +43,7 @@ const Info = () => {
   };
 
   return (
-    <section className='info__section'>
+    <section className='info__section' id='org'>
       <article className='info__article'>
         <h2>
           Bijdragen aan een <br></br>toekomstbestendige stad<mark>.</mark>

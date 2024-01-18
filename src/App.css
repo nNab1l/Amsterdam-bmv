@@ -280,6 +280,10 @@ h2{
   display: none;
 }
 
+.header__icon{
+  font-size: 2rem;
+}
+
 @media screen and (max-width: 62.5rem){
   .header__li{
     display: none;
@@ -318,4 +322,13 @@ h2{
     font-size: 3rem;
     text-align: center;
   }
+
+  .header__h2{
+    position: absolute;
+    bottom: 40%;
+    left: 10%;
+    font-size: 5rem;
+    color: white;
+  }
+  
 }
