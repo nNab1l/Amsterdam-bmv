@@ -39,7 +39,7 @@ body{
   align-items: center;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 99;
   padding-left: 5rem;
   padding-right: 5rem;
 }
@@ -73,7 +73,6 @@ body{
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  width: 100%;
   font-size: 1.5rem;
 }
 
@@ -256,7 +255,7 @@ h2{
 
 
 .info__wrapper.open {
-  height: 35rem;
+  height: 38rem;
   flex-direction: column;
   justify-content: flex-start;
   gap: 3rem;
@@ -272,3 +271,51 @@ h2{
   height: 8rem;
 }
 
+.header__li--altNav{
+  display: none;
+}
+
+
+.header__mobileNav{
+  display: none;
+}
+
+@media screen and (max-width: 62.5rem){
+  .header__li{
+    display: none;
+  }
+
+  .header__li--altNav{
+    display: block;
+    display: flex;
+  }
+
+  .header__mobileNav.open{
+    position: absolute;
+    height: 50vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s all;
+    z-index: 19;
+  }
+
+  .header__figure{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+
+  .header__mobileUl{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    list-style: none;
+    font-size: 3rem;
+    text-align: center;
+  }
+}
