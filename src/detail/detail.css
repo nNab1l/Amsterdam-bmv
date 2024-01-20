@@ -64,8 +64,7 @@
     padding: 5rem;
 }
 
-.detail__h2{
-}
+
 
 .detail__p{
     width: 70ch;
@@ -143,7 +142,7 @@
 
 @media (max-width: 768px) {
   .detail__infinite-text {
-    font-size: 8vw;
+    font-size: 10vw;
     color: black;
     z-index: -1;
     transition: 0.5s all;
@@ -166,6 +165,10 @@
   flex-direction: column;
   gap: 7rem;
   padding: 5rem;
+}
+
+.detail__h2{
+  font-size: 8vw;
 }
 
 .detail__p{
