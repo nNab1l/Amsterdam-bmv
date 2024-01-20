@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import img from '../projects/img/4.jpg';
 import img2 from '../projects/img/Img03.jpg';
 import img3 from '../projects/img/wereldburger.jpg';
@@ -14,7 +13,7 @@ import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom'
-
+import { useEffect, useRef } from 'react';
 
 const projectsData = [
   {
@@ -83,9 +82,23 @@ const projectsData = [
   },
 ];
 
+
+
+
 const Detail = () => {
   const { projectId } = useParams();
   const selectedProject = projectsData.find((project) => project.id === parseInt(projectId));
+
+  const scrollRef = useRef(null);
+
+  useEffect(() => {
+    if (scrollRef.current) {
+     
+      setTimeout(() => {
+        scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+      }, 100);
+    }
+  }, []);
   
 
 
@@ -93,11 +106,18 @@ const Detail = () => {
     return <div>Project not found</div>;
   }
 
+
+  
+
   return (
     <section className='detail'>
       <HeaderNav />
       <div class="detail__wrapper">
-      <Link to={`/Amsterdam-bmv`} className='detail__link'>
+      <Link
+        to="/Amsterdam-bmv#pro"
+        className='detail__link'
+        innerRef={scrollRef} 
+      >
         <div className='detail__buttonWrapper'>
           <button className='detail__button'>
             <FontAwesomeIcon icon={faArrowLeft} className='detail__arrow'/>
