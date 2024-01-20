@@ -8,7 +8,7 @@
 
 .footer__main{
     background: #f2f2f29b;
-    height: 50rem;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -17,6 +17,7 @@
     padding: 10rem;
     position: relative;
 }
+
 
 .footer__li{
     list-style: none;
@@ -40,3 +41,33 @@
     bottom: 10%;
     right: 5%;
 }
+
+
+@media (max-width: 768px) {
+
+    .footer{
+        padding: 0rem;
+    }
+       
+    .footer__main{
+        background: #f2f2f29b;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-radius: 2rem;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10rem;
+        padding: 2rem;
+        padding-top: 5rem;
+        position: relative;
+    }
+    
+    .footer__linkedin{
+        position: absolute;
+        color: rgb(145, 53, 53);
+        bottom: 10vw;
+        right: 5%;
+    }
+    }

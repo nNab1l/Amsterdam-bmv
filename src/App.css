@@ -278,6 +278,7 @@ h2{
 
 .header__mobileNav{
   display: none;
+  opacity: 0;
 }
 
 .header__icon{
@@ -285,6 +286,11 @@ h2{
 }
 
 @media screen and (max-width: 62.5rem){
+
+  .header__nav{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
   .header__li{
     display: none;
   }
@@ -295,7 +301,7 @@ h2{
   }
 
   .header__mobileNav.open{
-    position: absolute;
+    position: fixed;
     height: 50vh;
     top: 0;
     left: 0;
@@ -307,11 +313,16 @@ h2{
     align-items: center;
     transition: 0.2s all;
     z-index: 19;
+    opacity: 1;
   }
 
   .header__figure{
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .header__blur{
+    display: none;
   }
 
   .header__mobileUl{
@@ -330,5 +341,50 @@ h2{
     font-size: 5rem;
     color: white;
   }
+
+  .info__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+    padding-top: 15rem;
+  }
+
+  .info__article{
+    height: 100%;
+    width: 100%;
+    padding-left: 0rem;
+    padding: 5rem;
+    margin-top: 10rem;
+  }
   
+  .info__panel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .info__figure{
+    width: 100%;
+    height: 70rem;
+    padding-right: 0rem;
+    overflow: hidden;
+    transform: scale(0.7);
+    transition: 0.5s all;
+  }
+}
+
+@media (max-width: 480px) {
+  .info__article{
+    height: 100%;
+    width: 100%;
+    padding-left: 0rem;
+    padding: 1rem;
+    margin-top: 10rem;
+  }
 }

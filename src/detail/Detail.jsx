@@ -8,6 +8,7 @@ import img6 from '../projects/img/foto_2.png';
 import img7 from '../projects/img/brielstraatjpg.jpg';
 import img8 from '../projects/img/slavernimuseum_logo.jpg';
 import './detail.css'
+import { HeaderNav } from '../header/Header';
 import { useParams } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
@@ -18,10 +19,10 @@ const projectsData = [
   {
     id: 1,
     name: 'Spinoza20first<mark>.</mark>',
-    intro: 'Spinoza20first',
+    intro: 'Spinoza20First: duurzame school en sporthal',
     tag: 'Nieuwbouw',
     imgSrc: img,
-    content: 'Content for Spinoza20first project goes here.',
+    content: 'Waar ooit de parkeergarage van de voormalige Bijlmerbajes stond, zorgde een team van BMV voor de realisatie van nieuwbouw van de Spinoza20First-school en Sporthal Bajeskwartier, met daaraan gekoppeld een jongerencentrum. <br></br>Deze middelbare school biedt plek aan 1.000 tot 1.200 leerlingen. De sporthal bestaat uit drie zalen. Deze worden op doordeweekse dagen overdag gebruikt door Spinoza20First en in de avonden en weekenden door verenigingen. <br></br>Bij de ontwikkeling van de school en de sporthal besteedde BMV veel aandacht aan duurzaamheid. Zo is het gebouw flexibel indeelbaar, heeft het een lichte constructie en is bij de bouw gebruik gemaakt van duurzame materialen. <br></br>Verder is het gebouw aangesloten op de warmte/koude-opslaginstallatie (voor verwarming in de winter en verkoeling in de zomer) van het gebied Bajeskwartier. <br></br>Het dak van de school – met daarop het schoolplein – bevat veel groen, dat bijdraagt aan het vasthouden van regenwater. Op het dak van de sporthal bevinden zich hiernaast zonnepanelen.',
   },
   {
     id: 2,
@@ -86,13 +87,7 @@ const Detail = () => {
 
   return (
     <section className='detail'>
-       <nav className='detail__nav'>
-        <ul className='detail__ul'>
-          <li className='detail__li'>Home</li>
-          <li className='detail__li'>Projecten</li>
-          <li className='detail__li'>Werken Bij</li>
-        </ul>
-      </nav>
+      <HeaderNav />
       <div class="detail__wrapper">
       <Link to={`/Amsterdam-bmv`} className='detail__link'>
         <div className='detail__buttonWrapper'>

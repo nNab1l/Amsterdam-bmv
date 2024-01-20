@@ -95,3 +95,47 @@
      background:#fff; 
      padding:0 10px; 
  }
+
+ @media (max-width: 768px) {
+
+  .work__article{
+    height: 100%;
+    width: 100%;
+    padding-left: 5rem;
+    margin-top: 10rem;
+  }
+  
+  .work__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 5rem;
+    padding-top: 5rem;
+  }
+
+  .work__figure{
+    width: 100%;
+    height: 70rem;
+    padding-left: 0rem;
+    padding: 1rem;
+    overflow: hidden;
+    transform: scale(0.7);
+    transition: 0.5s all;
+  }
+
+  .work__textWrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+  }
+  
+  .work__paragraph{
+    color: #585858;
+    padding-left: 1rem;
+  }
+ }

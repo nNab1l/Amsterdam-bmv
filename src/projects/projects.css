@@ -77,6 +77,25 @@
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 60rem;
+    }
+
+    .projects__article--one,
+    .projects__article--two,
+    .projects__article--three,
+    .projects__article--four,
+    .projects__article--five,
+    .projects__article--six,
+    .projects__article--seven,
+    .projects__article--eight {
+        grid-column: auto;
+        grid-row: auto;
+        height: auto;
+    }
+}
 
 
 
@@ -121,4 +140,17 @@
     filter: brightness(0.9);
     cursor: pointer;
 }
+
+
+@media (max-width: 480px) {
+    .projects {
+        padding: 1rem;
+    }
+
+    .projects__h2 {
+        font-size: 8vw;
+        top: 8vw; /* Adjust top position for smaller screens */
+    }
+}
+
 
