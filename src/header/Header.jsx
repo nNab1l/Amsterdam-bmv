@@ -9,31 +9,9 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll'
 
 const Header = () => {
-  const [rotationAngle, setRotationAngle] = useState(0);
   const [isMobileNavOpen, setMobileNavOpen] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollPosition = window.scrollY;
 
-      const scaledRotation = scrollPosition * 0.3; 
-
-      const limitedRotation = Math.min(scaledRotation, 15);
-
-      setRotationAngle(limitedRotation);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []); 
-
-  const headerFigureStyle = {
-    transform: `rotate(${rotationAngle}deg)`,
-    transition: 'transform 1s ease', 
-  };
 
   const toggleMobileNav = () => {
     setMobileNavOpen(!isMobileNavOpen);
@@ -46,7 +24,7 @@ const Header = () => {
       <article className='header__blur'></article>
       <article className='header__blur header__blur--two'></article>
       <HeaderNav toggleMobileNav={toggleMobileNav} />
-      <figure className='header__figure' style={headerFigureStyle}>
+      <figure className='header__figure'>
         <img src={img3} alt="" className='header__img'/>
         <h2 className='header__h2'>De bouw van Amsterdam:<br></br> van dichterbij</h2>
       </figure>
