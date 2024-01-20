@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Amsterdam-bmv/static/css/main.98273084.css",
+    "main.css": "/Amsterdam-bmv/static/css/main.13ef0a38.css",
     "main.js": "/Amsterdam-bmv/static/js/main.81826542.js",
     "static/js/787.51f9f5f6.chunk.js": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js",
     "static/media/vertical2.jpg": "/Amsterdam-bmv/static/media/vertical2.96c52f1103f71c7b259c.jpg",
@@ -18,12 +18,12 @@
     "static/media/foto_2.png": "/Amsterdam-bmv/static/media/foto_2.5f8bd1e85d0f118736f2.png",
     "static/media/amsterdam-museum-renovatie.webp": "/Amsterdam-bmv/static/media/amsterdam-museum-renovatie.bf86e714b6b25ac04787.webp",
     "index.html": "/Amsterdam-bmv/index.html",
-    "main.98273084.css.map": "/Amsterdam-bmv/static/css/main.98273084.css.map",
+    "main.13ef0a38.css.map": "/Amsterdam-bmv/static/css/main.13ef0a38.css.map",
     "main.81826542.js.map": "/Amsterdam-bmv/static/js/main.81826542.js.map",
     "787.51f9f5f6.chunk.js.map": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.98273084.css",
+    "static/css/main.13ef0a38.css",
     "static/js/main.81826542.js"
   ]
 }
