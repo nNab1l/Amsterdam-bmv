@@ -25,7 +25,7 @@ const Header = () => {
       <article className='header__blur header__blur--two'></article>
       <HeaderNav toggleMobileNav={toggleMobileNav} />
       <figure className='header__figure'>
-        <img src={img3} alt="" className='header__img'/>
+        <img src={img3} alt="Moderne Amsterdamse appartementen met gras" className='header__img'/>
         <h2 className='header__h2'>De bouw van Amsterdam:<br></br> van dichterbij</h2>
       </figure>
     </header>

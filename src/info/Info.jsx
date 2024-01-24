@@ -68,7 +68,7 @@ const Info = () => {
             ))}
           </div>
           <figure className='info__figure'>
-            <img src={img} alt='' className='info__img' />
+            <img src={img} alt='Windmolen in een veld met gras' className='info__img' />
           </figure>
         </article>
       </article>
@@ -80,7 +80,7 @@ const Info = () => {
         <p className='info__sub'>Mensen</p>
         <article className='info__content'>
           <figure className='info__figure info__figure--alt'>
-            <img src={img2} alt='' className='info__img' />
+            <img src={img2} alt='Modern appartement in Amsterdam Sloterdijk' className='info__img' />
           </figure>
           <div className='info__panel'>
             {itemNames2.map((itemName, index) => (

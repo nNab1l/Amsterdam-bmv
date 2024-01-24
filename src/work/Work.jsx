@@ -16,7 +16,7 @@ const Work = () => {
             </article>
             <article className='work__content'>
             <figure className='work__figure'>
-                    <img src={img} alt='' className='info__img' />
+                    <img src={img} alt='Jonge man in gesprek met vrouw' className='work__img' />
                 </figure>
                 <div className='work__textWrapper'>
                     <p className='work__paragraph'>

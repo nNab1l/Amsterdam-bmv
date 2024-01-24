@@ -70,7 +70,7 @@ const Projects = () => {
       </p>
       <article className='projects__article projects__article--one'>
         <Link to={`/details/${projectsData[0].id}`}>
-        <img src={projectsData[0].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[0].imgSrc} alt="Spinoza20first schoolgebouw" className='projects__img'/>
         <h2 className='projects__h2'>{projectsData[0].name}<mark>.</mark></h2>
         </Link>
       </article>
@@ -78,46 +78,46 @@ const Projects = () => {
       <article className='projects__article projects__article--two'>
         <Link to={`/details/${projectsData[1].id}`}>
           <h2 className='projects__h2'>{projectsData[1].name}<mark>.</mark></h2>
-        <img src={projectsData[1].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[1].imgSrc} alt="Sportveld van AFC" className='projects__img'/>
         </Link>
       </article>
 
       <article className='projects__article projects__article--three'>
         <Link to={`/details/${projectsData[2].id}`}>
           <h2 className='projects__h2'>{projectsData[2].name}<mark>.</mark></h2>
-        <img src={projectsData[2].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[2].imgSrc} alt="AICS nieuw gebouw" className='projects__img'/>
         </Link>
       </article>
 
       <article className='projects__article projects__article--four'>
         <Link to={`/details/${projectsData[3].id}`}>
           <h2 className='projects__h2'>{projectsData[3].name}<mark>.</mark></h2>
-        <img src={projectsData[3].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[3].imgSrc} alt="Schets van Renovatie Amsterdam museum" className='projects__img'/>
         </Link>
       </article>
 
       <article className='projects__article projects__article--five'>
         <Link to={`/details/${projectsData[4].id}`}>
           <h2 className='projects__h2'>{projectsData[4].name}<mark>.</mark></h2>
-        <img src={projectsData[4].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[4].imgSrc} alt="Nieuwbouw van basischool de wereldburger" className='projects__img'/>
         </Link>
       </article>
       <article className='projects__article projects__article--six'>
         <Link to={`/details/${projectsData[5].id}`}>
           <h2 className='projects__h2'>{projectsData[5].name}<mark>.</mark></h2>
-        <img src={projectsData[5].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[5].imgSrc} alt="Schets renovatie bostheater" className='projects__img'/>
         </Link>
       </article>
       <article className='projects__article projects__article--seven'>
         <Link to={`/details/${projectsData[6].id}`}>
           <h2 className='projects__h2'>{projectsData[6].name}<mark>.</mark></h2>
-        <img src={projectsData[6].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[6].imgSrc} alt="Verbouwing en Nieuwbouw Werven en Overslagpunten." className='projects__img'/>
         </Link>
       </article>
       <article className='projects__article projects__article--eight'>
         <Link to={`/details/${projectsData[7].id}`}>
           <h2 className='projects__h2'>{projectsData[7].name}<mark>.</mark></h2>
-        <img src={projectsData[7].imgSrc} alt="" className='projects__img'/>
+        <img src={projectsData[7].imgSrc} alt="Nationaal slavernij museum logo" className='projects__img'/>
         </Link>
       </article>
     </section>
