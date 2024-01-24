@@ -1,13 +1,13 @@
 import React from 'react';
 import './projects.css';
-import img from './img/4.jpg';
-import img2 from './img/Img03.jpg';
-import img3 from './img/wereldburger.jpg';
+import img from './img/spinoza.webp';
+import img2 from './img/aics.webp';
+import img3 from './img/wereldburger.webp';
 import img4 from './img/amsterdam-museum-renovatie.webp'
-import img5 from './img/afc-new.jpg'
-import img6 from './img/foto_2.png';
-import img7 from './img/brielstraatjpg.jpg';
-import img8 from './img/slavernimuseum_logo.jpg';
+import img5 from './img/afc.webp'
+import img6 from './img/bostheater.webp';
+import img7 from './img/brielstraat.webp';
+import img8 from './img/slavernimuseum_logo.webp';
 import { Link } from 'react-router-dom'
 
 const projectsData = [

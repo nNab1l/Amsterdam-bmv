@@ -1,11 +1,11 @@
-import img from '../projects/img/4.jpg';
-import img2 from '../projects/img/Img03.jpg';
-import img3 from '../projects/img/wereldburger.jpg';
+import img from '../projects/img/spinoza.webp';
+import img2 from '../projects/img/aics.webp';
+import img3 from '../projects/img/wereldburger.webp';
 import img4 from '../projects/img/amsterdam-museum-renovatie.webp'
-import img5 from '../projects/img/afc-new.jpg'
-import img6 from '../projects/img/foto_2.png';
-import img7 from '../projects/img/brielstraatjpg.jpg';
-import img8 from '../projects/img/slavernimuseum_logo.jpg';
+import img5 from '../projects/img/afc.webp'
+import img6 from '../projects/img/bostheater.webp';
+import img7 from '../projects/img/brielstraat.webp';
+import img8 from '../projects/img/slavernimuseum_logo.webp';
 import './detail.css'
 import { HeaderNav } from '../header/Header';
 import { Footer } from '../footer/Footer';

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import img from './img/pexels-jan-kopřiva-3315512.jpg';
-import img2 from './img/vertical2.jpg';
+import img from './img/info-1.webp';
+import img2 from './img/info-2.webp';
 
 
 

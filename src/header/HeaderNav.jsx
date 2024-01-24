@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import logo from './img/logo-gemeente-amsterdam.png';
+import logo from './img/logo-gemeente-amsterdam.webp';
 
 const HeaderNav = () => {
     const [isMobileNavOpen, setMobileNavOpen] = useState(false);

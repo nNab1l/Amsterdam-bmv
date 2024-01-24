@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import img1 from './961_1440x960.jpg';
 import img2 from './Valley-vallei-op-6e-verdieping-1800x1201.jpg';
-import img3 from './img/grass.jpg';
-import logo from './img/logo-gemeente-amsterdam.png';
+import img3 from './img/header.webp';
+import logo from './img/logo-gemeente-amsterdam.webp';
 import HeaderNav from './HeaderNav';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';

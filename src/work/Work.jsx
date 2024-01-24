@@ -1,5 +1,5 @@
 import './work.css';
-import img from './img/67-stadstimmertuin-jongeman-en-vrouw-in-gesprek.jpg';
+import img from './img/werken-bij.webp';
 
 const Work = () => {
 
