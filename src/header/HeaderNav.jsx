@@ -15,17 +15,27 @@ const HeaderNav = () => {
   return (
     <>
         <nav className='header__nav'>
-        <img src={logo} alt="" className='header__logo'/>
+        <img src={logo} alt="Algemeen logo van de Amsterdamse gemeente" className='header__logo'/>
             <ul className='header__ul'>
-            <Link activeClass="active" smooth spy to="org">
-            <li className='header__li'>Organisatie</li>
+            <li className='header__li'>
+            <Link href='#org' activeClass="active" smooth spy to="org">
+              Organisatie
             </Link>
-            <Link activeClass="active" smooth spy to="pro">
-            <li className='header__li'>Projecten</li>
+            </li>
+           
+            
+            <li className='header__li'>
+            <Link href='#pro' activeClass="active" smooth spy to="pro">
+              Projecten
             </Link>
-            <Link activeClass="active" smooth spy to="wor">
-            <li className='header__li'>Werken Bij</li>
+            </li>
+           
+          
+            <li className='header__li'>
+            <Link href='#org' activeClass="active" smooth spy to="wor">
+              Werken Bij
             </Link>
+            </li>
             <li className='header__li header__li--altNav' onClick={toggleMobileNav}>
                 <FontAwesomeIcon icon={faBars} className='header__icon'/>
             </li>
@@ -33,13 +43,13 @@ const HeaderNav = () => {
         </nav>
         <nav className={mobileNavClasses}>
             <ul className="header__mobileUl">
-            <Link activeClass="active" smooth spy to="org">
+            <Link href='#org' activeClass="active" smooth spy to="org">
             <li className='header__mobileLi'>Organisatie</li>
             </Link>
-            <Link activeClass="active" smooth spy to="pro">
+            <Link href='#pro' activeClass="active" smooth spy to="pro">
             <li className='header__mobileLi'>Projecten</li>
             </Link>
-            <Link activeClass="active" smooth spy to="wor">
+            <Link href='#wor' activeClass="active" smooth spy to="wor">
             <li className='header__mobileLi'>Werken Bij</li>
             </Link>
             </ul>

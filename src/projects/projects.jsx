@@ -111,7 +111,7 @@ const Projects = () => {
       <article className='projects__article projects__article--seven'>
         <Link to={`/details/${projectsData[6].id}`}>
           <h2 className='projects__h2'>{projectsData[6].name}<mark>.</mark></h2>
-        <img src={projectsData[6].imgSrc} alt="Verbouwing en Nieuwbouw Werven en Overslagpunten." className='projects__img'/>
+        <img src={projectsData[6].imgSrc} alt="Schets van een algemene verbouwing" className='projects__img'/>
         </Link>
       </article>
       <article className='projects__article projects__article--eight'>
