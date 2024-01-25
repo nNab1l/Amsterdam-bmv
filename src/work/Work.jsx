@@ -5,9 +5,6 @@ const Work = () => {
 
     return(
         <section className="work" id='wor'>
-            <p className='h2'>
-                <span>Werken Bij</span>
-            </p>
             <article className='work__article work__article--alt'>
             <h2>
             Werken of stage lopen<br></br> bij BMV<mark>.</mark>

@@ -65,9 +65,6 @@ const projectsData = [
 const Projects = () => {
   return (
     <section className='projects' id='pro'>
-      <p className='h2'>
-            <span>Projecten</span>
-      </p>
       <article className='projects__article projects__article--one'>
         <Link to={`/details/${projectsData[0].id}`}>
         <img src={projectsData[0].imgSrc} alt="Spinoza20first schoolgebouw" className='projects__img'/>

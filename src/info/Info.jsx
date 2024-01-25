@@ -14,13 +14,13 @@ const Info = () => {
     'De werkgebieden en de expertise van bouwmanagement en maatschappelijk vastgoed overlappen elkaar, vullen elkaar aan en versterken elkaar. BMV hanteert daarom een integrale aanpak: een kruisbestuiving tussen verschillende disciplines, uiteenlopend van proces-, project- en bouwmanagement tot planning, financiën, grond en ontwikkeling, vastgoed en juridische zaken.',
   ];
 
-  const itemNames2 = ['Wat is BMV?', 'Wat doet BMV?', '?', 'Integrale aanpak'];
+  const itemNames2 = ['Wat is BMV?', 'Werkzaamheden', 'Integrale aanpak', 'plan'];
 
   const additionalTexts2 = [
     'Het ontwikkelen en realiseren van maatschappelijke voorzieningen is binnen de gemeente Amsterdam in handen van team BMV: Bouwmanagement en Maatschappelijk Vastgoed, onderdeel van het Projectmanagementbureau. Bij BMV werken bouwmanagers en project- en procesmanagers, samen met collega’s van verschillende gemeentelijke afdelingen, aan de toekomst van de stad.',
     'BMV stond aan de wieg van het Amsterdamse beleid voor maatschappelijke voorzieningen. Dit beleid werd in 2018 verankerd in de ‘Referentienormen voor maatschappelijke voorzieningen, groen en spelen’. Het doel van deze normen is de groei van de stad te koppelen aan maatschappelijke voorzieningen en activiteiten. Deze worden niet vanzelfsprekend door de private sector opgepakt en vragen daarom een actieve rol van de gemeentelijke overheid.',
-    'Bij BMV werken rond de 60 bouwmanagers en project- en procesmanagers maatschappelijk vastgoed, met als thuisbasis een kantoor in het hart van Amsterdam...',
-    'De werkgebieden en de expertise van bouwmanagement en maatschappelijk vastgoed overlappen elkaar, vullen elkaar aan en versterken elkaar. BMV hanteert daarom een integrale aanpak...',
+    '<mark>⦁</mark> bestuurlijk adviseren van verschillende directies en het gemeentebestuur in de verschillende beleidsfases<br></br> <mark>⦁</mark> opstellen van een programma van eisen<br></br> <mark>⦁</mark> onderzoek doen naar geschikte locaties controleren van het budget in relatie tot de ambities<br></br> <mark>⦁</mark> aansturen van een ontwerptraject<br></br> organiseren van selecties en aanbestedingen<br></br> voorbereiden en coördineren van de bouw<br></br> verzorgen van het feestje rond de oplevering. ',
+    'BMV schakelt tussen project en proces. Het team is binnen de gemeente Amsterdam hét adres voor vraagstukken op het snijvlak van het sociale en fysieke domein. BMV biedt een integraal en overzichtelijk pakket per project. En het verbindt de wensen van de opdrachtgever en de gebruiker aan de mogelijkheden in het gebied, de kosten en de planning.',
   ];
 
   const [activeDropdown1, setActiveDropdown1] = useState(null);
@@ -93,7 +93,7 @@ const Info = () => {
                 {!isDropdownOpen2(index) && <p className='info__dot'>⦁</p>}
                 {isDropdownOpen2(index) && (
                   <div className='info__textWrapper'>
-                    <p className='info__paragraph'>{additionalTexts2[index]}</p>
+                        <p className='info__paragraph' dangerouslySetInnerHTML={{ __html: additionalTexts2[index] }}></p>
                   </div>
                 )}
               </div>
