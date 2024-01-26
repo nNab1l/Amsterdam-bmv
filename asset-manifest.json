@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Amsterdam-bmv/static/css/main.13ef0a38.css",
-    "main.js": "/Amsterdam-bmv/static/js/main.81826542.js",
+    "main.css": "/Amsterdam-bmv/static/css/main.9a4dcfb7.css",
+    "main.js": "/Amsterdam-bmv/static/js/main.93425e2f.js",
     "static/js/787.51f9f5f6.chunk.js": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js",
-    "static/media/vertical2.jpg": "/Amsterdam-bmv/static/media/vertical2.96c52f1103f71c7b259c.jpg",
-    "static/media/grass.jpg": "/Amsterdam-bmv/static/media/grass.61f0f3aaf1b981bab7d7.jpg",
-    "static/media/pexels-jan-kopřiva-3315512.jpg": "/Amsterdam-bmv/static/media/pexels-jan-kopřiva-3315512.708fe4a29b24acd6dc99.jpg",
-    "static/media/Img03.jpg": "/Amsterdam-bmv/static/media/Img03.94abe858e9921eec76a9.jpg",
-    "static/media/4.jpg": "/Amsterdam-bmv/static/media/4.a7177798f04f6ea5a34f.jpg",
+    "static/media/header.webp": "/Amsterdam-bmv/static/media/header.9f93530e5f5f55ae2366.webp",
+    "static/media/info-2.webp": "/Amsterdam-bmv/static/media/info-2.50a56c010b6b15571a38.webp",
     "static/media/Valley-vallei-op-6e-verdieping-1800x1201.jpg": "/Amsterdam-bmv/static/media/Valley-vallei-op-6e-verdieping-1800x1201.37185e4d196eca12eb41.jpg",
-    "static/media/afc-new.jpg": "/Amsterdam-bmv/static/media/afc-new.4f40c855b6bf49807627.jpg",
     "static/media/961_1440x960.jpg": "/Amsterdam-bmv/static/media/961_1440x960.65b99cee6568f3226250.jpg",
-    "static/media/67-stadstimmertuin-jongeman-en-vrouw-in-gesprek.jpg": "/Amsterdam-bmv/static/media/67-stadstimmertuin-jongeman-en-vrouw-in-gesprek.3f2f9e26be3f36d3412d.jpg",
-    "static/media/wereldburger.jpg": "/Amsterdam-bmv/static/media/wereldburger.08056bff964b2cccd648.jpg",
-    "static/media/brielstraatjpg.jpg": "/Amsterdam-bmv/static/media/brielstraatjpg.d4dbfd1105bd9e2676d2.jpg",
-    "static/media/slavernimuseum_logo.jpg": "/Amsterdam-bmv/static/media/slavernimuseum_logo.c1f12e7026b566532682.jpg",
-    "static/media/foto_2.png": "/Amsterdam-bmv/static/media/foto_2.5f8bd1e85d0f118736f2.png",
+    "static/media/info-1.webp": "/Amsterdam-bmv/static/media/info-1.387dcdb3698f1184152a.webp",
+    "static/media/aics.webp": "/Amsterdam-bmv/static/media/aics.8c64516c8863f0892016.webp",
+    "static/media/spinoza.webp": "/Amsterdam-bmv/static/media/spinoza.8d967d36b68e47d9c8de.webp",
     "static/media/amsterdam-museum-renovatie.webp": "/Amsterdam-bmv/static/media/amsterdam-museum-renovatie.bf86e714b6b25ac04787.webp",
+    "static/media/wereldburger.webp": "/Amsterdam-bmv/static/media/wereldburger.5699cac882dc81cccb1d.webp",
+    "static/media/afc.webp": "/Amsterdam-bmv/static/media/afc.d571545d622e95648d1a.webp",
+    "static/media/slavernimuseum_logo.webp": "/Amsterdam-bmv/static/media/slavernimuseum_logo.6463e014afbb10ae85b6.webp",
+    "static/media/werken-bij.webp": "/Amsterdam-bmv/static/media/werken-bij.67a6df95c1045ad8d7df.webp",
+    "static/media/brielstraat.webp": "/Amsterdam-bmv/static/media/brielstraat.245a8ebe5460e667fbe2.webp",
+    "static/media/bostheater.webp": "/Amsterdam-bmv/static/media/bostheater.3e31ce370d4130edc77f.webp",
+    "static/media/logo-gemeente-amsterdam.webp": "/Amsterdam-bmv/static/media/logo-gemeente-amsterdam.eecb5f44e32bacb27180.webp",
     "index.html": "/Amsterdam-bmv/index.html",
-    "main.13ef0a38.css.map": "/Amsterdam-bmv/static/css/main.13ef0a38.css.map",
-    "main.81826542.js.map": "/Amsterdam-bmv/static/js/main.81826542.js.map",
+    "main.9a4dcfb7.css.map": "/Amsterdam-bmv/static/css/main.9a4dcfb7.css.map",
+    "main.93425e2f.js.map": "/Amsterdam-bmv/static/js/main.93425e2f.js.map",
     "787.51f9f5f6.chunk.js.map": "/Amsterdam-bmv/static/js/787.51f9f5f6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13ef0a38.css",
-    "static/js/main.81826542.js"
+    "static/css/main.9a4dcfb7.css",
+    "static/js/main.93425e2f.js"
   ]
 }
